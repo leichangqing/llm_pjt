@@ -29,7 +29,8 @@ class ChatCallbackHandler(BaseCallbackHandler):
             self.message += token
             self.message_box.markdown(self.message)
 
-options = ['llama-3.1-405b-reasoning', 
+options = ['llama-3.1-405b-reasoning',
+           'llama-3.2-90b-Text-Preview',
            'llama-3.1-70b-versatile', 
            'llama3-groq-70b-8192-tool-use-preview', 
            'llama3-70b-8192']
